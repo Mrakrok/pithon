@@ -1,14 +1,14 @@
 # Kde se co naučíš
 
-## DBI
+## DBI (neni hotovo)
 
 - postup tvorby webu s přihlášením
 
-## PSK
+## PSK (pouze 1 test)
 
 - Testy, otázky a odpovědi
 - odkazy na manuálos
 
-## PRG
+## PRG (nejsou vsechny ukoly)
 
 - řešené úkoly
