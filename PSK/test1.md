@@ -37,14 +37,31 @@ najdeš -S<br>
 
 2. whatis
 
-3. heslo = číslo_studenta <br>
-echo = $heslo<br> *(alt + ů = $)*
-vypíše číslo_studenta <br>
+3. heslo = číslo_studenta 
 
-4.
+4. echo = $heslo /pro dolar->(alt + ů = $)/<br>
+	vypíše číslo_studenta 
 
 5. echo ((2048 * 18 - 397))<br> *nebo* <br>
 echo [2048 * 18 - 397]
 
-6.  cp -r /etc/init.d /home/uzivatel/psk-zk<br>
-*(-r ,dovolí kopírovat složky)*
+6.  cd /tmp<br>
+    cd |mkdir psk-zk
+
+7. cd psk-zk<br>
+   cp /etc/group /home/sve udaje z pythonanywhere(viz.uzv12121)/psk-zk <br>
+
+8. cp -r /etc/init.d /home/sve udaje z pythonanywhere(viz.uzv12121)/psk-zk <br>
+*(-r ,dovolí kopírovat složky)
+
+9. mv init.d setup
+
+10. mv group prog.sh
+
+11. chmod 111 prog.sh
+
+12. chmod a-r setup
+
+13. :)
+
+14. rm -r psk-zk
