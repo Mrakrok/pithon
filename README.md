@@ -9,6 +9,6 @@
 - Testy, otázky a odpovědi
 - odkazy na manuálos
 
-## PRG (nejsou vsechny ukoly)
+## PRG
 
 - řešené úkoly
