@@ -1,6 +1,6 @@
 # Kde se co naučíš
 
-## DBI (neni hotovo)
+## DBI (dodělat!)
 
 - postup tvorby webu s přihlášením
 
@@ -12,3 +12,8 @@
 ## PRG
 
 - řešené úkoly
+
+## CAD
+
+- rozměry pro příklad Parametry
+- odmitam počitat maturuju z CADu ne z matiky voe
