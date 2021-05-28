@@ -1,0 +1,11 @@
+Testovaci graf
+popis osy x
+popis osy y
+0 0
+1 1
+2 4
+3 6
+4 2
+5 3
+6 3
+7 3
