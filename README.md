@@ -4,7 +4,7 @@
 
 - postup tvorby webu s přihlášením
 
-## PSK (pouze 1 test)
+## PSK
 
 - Testy, otázky a odpovědi
 - odkazy na manuálos
