@@ -38,12 +38,13 @@ najdeš -S<br>
 2. whatis
 
 3. heslo = číslo_studenta <br>
-echo = $heslo<br>
+echo = $heslo<br> *(alt + ů = $)*
 vypíše číslo_studenta <br>
 
-4. echo ((1+1))<br> nebo <br>
-echo [1+1]
+4.
 
-5. 
+5. echo ((2048 * 18 - 397))<br> *nebo* <br>
+echo [2048 * 18 - 397]
 
-6. 
+6.  cp -r /etc/init.d /home/uzivatel/psk-zk<br>
+*(-r ,dovolí kopírovat složky)*
