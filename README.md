@@ -1,1 +1,16 @@
-# Jak vytvořit webovou aplikaci v pythonanywhere.com s Flask python ve složce /DBI
+# Kde co?
+
+**Toš vytaj!**
+
+## DBI
+
+- postup tvorby webu s přihlášením
+
+## PSK
+
+- Testy, otázky a odpovědi
+- odkazy na manuálos
+
+## PRG
+
+- řešené úkoly
