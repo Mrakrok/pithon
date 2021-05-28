@@ -1,6 +1,4 @@
-# Kde co?
-
-**Toš vytaj!**
+# Kde se co naučíš
 
 ## DBI
 
