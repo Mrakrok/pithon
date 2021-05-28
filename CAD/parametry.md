@@ -4,3 +4,5 @@
 
 - PRUMER - 15.1102145 mm
 - HRANA - 1.5 ul * PRUMER
+
+![2](https://i.gyazo.com/ad94286ceb6ea37b30448e9cc362f19a.png)
