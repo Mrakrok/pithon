@@ -3,7 +3,6 @@
 ## CAD
 
 - rozměry pro součást Parametry
-- odmitam počitat, maturuju z CADu ne z matiky voe
 
 ## DBI (dodělat!)
 
@@ -13,8 +12,7 @@
 
 - řešené úkoly
 
-
 ## PSK
 
-- Testy, otázky a odpovědi
-- odkazy na manuálos
+- příklady náhodných otázek a odpovědí
+- užitečné odkazy
