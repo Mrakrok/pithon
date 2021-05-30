@@ -2,11 +2,13 @@
 
 ## CAD
 
-- rozměry pro součást Parametry
+- Rozměry náčrtů
 
-## DBI (dodělat!)
+## DBI
 
-- postup tvorby webu s přihlášením
+- Flask web na VTIPY +
+- **2** alternativni řešení flask webů
+- napůl funkční
 
 ## PRG
 
