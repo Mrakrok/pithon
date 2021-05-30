@@ -1,0 +1,38 @@
+{% extends "index.html" %}
+
+{% block obsah %}
+
+
+<h2>Registrace</h2>
+
+<div style="color:red">
+    {{ chyba }}
+</div>
+
+
+    <form action="{{url_for("registrace") }}" method="POST">
+        <table>
+            <tr>
+                <td>Login:</td>
+                <td><input type="text" name="login" maxlenght="15"></td>
+            </tr>
+            <tr>
+                <td>Heslo:</td>
+                <td><input type="password" name="heslo1"></td>
+            </tr>
+            <tr>
+                <td>Heslo znovu:</td>
+                <td><input type="password" name="heslo2"></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="text" name="email" maxlenght="40"></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Zaregistrovat"></td>
+            </tr>
+        </table>
+    </form>
+
+
+{% endblock %}

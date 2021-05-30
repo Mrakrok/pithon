@@ -1,0 +1,49 @@
+{% extends "index.html" %}
+
+{% block obsah %}
+
+
+{% if uspech %}
+
+
+<div style="color:green">
+{{ uspech }}
+</div>
+
+{% else %}
+
+<div style="color:red">
+{{ zprava }}
+</div>
+
+
+<h2>Přidat vtip</h2>
+
+
+     <form action="{{url_for("pridat") }}" method="POST">
+        <table>
+            <tr>
+                <td>kategorie:</td>
+                <td><select name="kategorie">
+                    <option value="0" selected="selected">O policajtech</option>
+                    <option value="1">IT</option>
+                    <option value="2">Pepicek</option>
+                    <option value="3">Blondynky</option>
+                    <option value="4">Zhave</option>
+                    <option value="5">O zidech</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td>vtip:</td>
+                <td><textarea  name="vtip" cols="30" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Vložit"></td>
+            </tr>
+        </table>
+    </form>
+
+
+{% endif %}
+
+{% endblock %}

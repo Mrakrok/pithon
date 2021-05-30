@@ -1,0 +1,45 @@
+{% extends "index.html" %}
+
+{% block obsah %}
+
+
+{% if uspech %}
+
+
+<div style="color:green">
+{{ uspech }}
+</div>
+
+{% else %}
+
+<div style="color:red">
+{{ zprava }}
+</div>
+
+
+
+
+
+<h2>Přihlašení</h2>
+
+
+     <form action="{{url_for("prihlaseni") }}" method="POST">
+        <table>
+            <tr>
+                <td>jméno:</td>
+                <td><input type="text" name="login" value="{{ uzivatel }}"></td>
+            </tr>
+            <tr>
+                <td>heslo:</td>
+                <td><input type="password" name="heslo"></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Přihlásit"></td>
+            </tr>
+        </table>
+    </form>
+
+
+{% endif %}
+
+{% endblock %}
