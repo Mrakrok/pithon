@@ -1,0 +1,60 @@
+/* par drobnosti aby mel nahled rozumne rozmery */
+
+header, footer {
+    min-height: 100px;
+
+}
+
+main {
+    min-height: 300px;
+}
+
+nav, kateg {
+    min-height: 35px;
+}
+
+body {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+header {
+    grid-column: 2;
+    grid-row: 1;
+    background-color: gray;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
+nav {
+    grid-column: 2;
+    grid-row: 2;
+    font-size: 25px;
+    background-color: lightgreen;
+    font-style: initial;
+
+
+}
+
+main {
+    grid-column: 2;
+    grid-row: 4;
+    background-color: lightgreen;
+    font-size: 20px;
+}
+
+kateg {
+    grid-column: 2;
+    grid-row: 3;
+    font-size: 26px;
+    text-align: center;
+    font-style: initial;
+    background-color: gray;
+}
+
+footer {
+    grid-column: 2;
+    grid-row: 5;
+    background-color: gray;
+}

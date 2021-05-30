@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{url_for("static",filename="styly.css")}}">
+    <title>VTIPY S.R.O</title>
+</head>
+<body>
+    <header>
+        <h1 align="center"><strong>VTIPY S.R.O</strong></h1>
+
+
+    </header>
+    <nav>
+    <table width="100%">
+            <tr><td colspan="5"><h2 align="center">MENU</h2></td>
+            </tr>
+
+            <tr align="center">
+                <td><a href="{{url_for("index")}}"  style="text-decoration:none">Home</a><br></td>
+
+                {% if session["uziv"] %}
+                <td width="33%"><a href="{{ url_for("pridat")    }}" style="text-decoration:none"> Přidat vtip </a></td>
+                {% else %}
+
+                <td width="33%"><a href="{{url_for("registrace")}}" style="text-decoration:none"> Registrace </a></td>
+                {% endif %}
+
+                {% if session["uziv"] %}
+                <td><a href="{{ url_for("spravavtipu")    }}" style="text-decoration:none;"> Moje vtipy </a><br></td>
+                {% endif %}
+
+                <td><a href="{{ url_for("prihlaseni")  }}" style="text-decoration:none;">
+                {% if session["uziv"] %}
+                Odhlásit se
+                {% else %}
+                Přihlásit se
+                {% endif %}
+
+                </a><br></td>
+            </tr>
+
+    </table>
+    </nav>
+
+    <kateg>
+
+        {% block kateg %}
+
+        {% endblock %}
+
+    </kateg>
+    <main>
+
+        {% block obsah %}
+        Přihlášen jako: {{ session["uziv"] }}
+        {% endblock %}
+
+    </main>
+    <footer>&copy; Copyright 2021</footer>
+</body>
+</html>

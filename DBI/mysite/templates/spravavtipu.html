@@ -1,0 +1,16 @@
+{% extends "index.html" %}
+
+{% block obsah %}
+
+{% for v in vtipy %}
+<div>
+<p>Zveřejněno {{v[0]}}</p>
+<p>{{v[1]}}</p>
+<p>Příspěvek vložil uživatel {{v[2]}}</p>
+<a href="http://usr12121.pythonanywhere.com/sprava-vtipu/?id={{v[3]}}">(SMAZAT)</a>
+</div>
+
+
+{% endfor %}
+
+{% endblock %}

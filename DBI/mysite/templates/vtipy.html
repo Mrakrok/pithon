@@ -1,0 +1,29 @@
+{% extends "index.html" %}
+
+
+{% block kateg %}
+
+    {% for k in kategorie %}
+
+    <span> <a href="{{ url_for("index",idkat = k[1] ) }}" style="text-decoration:none;"> {{ k[0] }}  </a> </span> &nbsp; &nbsp;
+
+
+
+    {% endfor %}
+
+
+
+
+{% endblock %}
+
+
+{% block obsah %}
+
+    {% for v in vtipy %}
+    <hr>
+        <small> {{ v[0] }} </small>
+
+        <p> {{ v[1] }} </p>
+    {% endfor %}
+
+{% endblock %}
